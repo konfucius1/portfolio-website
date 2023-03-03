@@ -10,6 +10,10 @@ module.exports = {
       dark: '#0D0C12',
       'off-white': '#FFFCF5',
     },
+    fontFamily: {
+      satoshi: ['Satoshi'],
+      rubik: ['rubik'],
+    },
   },
   plugins: [require('daisyui')],
 };
