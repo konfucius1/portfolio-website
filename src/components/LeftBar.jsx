@@ -9,10 +9,10 @@ const LeftBar = () => {
     <div>
       <div id="left" className="flex justify-center items-center min-h-screen">
         <div className="flex-none w-24">
-          <img src={github} alt="" className="p-2" />
-          <img src={linkedin} alt="" className="p-2" />
-          <img src={instagram} alt="" className="p-2" />
-          <img src={twitter} alt="" className="p-2" />
+          <img src={github} alt="" className="p-2 w-11" />
+          <img src={linkedin} alt="" className="p-2 w-11" />
+          <img src={instagram} alt="" className="p-2 w-11" />
+          <img src={twitter} alt="" className="p-2 w-11" />
         </div>
       </div>
     </div>

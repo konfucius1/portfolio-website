@@ -1,5 +1,5 @@
 import React from 'react';
-import Typical from 'react-typical';
+import { TypeAnimation } from 'react-type-animation';
 
 const Hero = () => {
   return (
@@ -14,19 +14,19 @@ const Hero = () => {
         </h1>
         <p className="font-satoshi text-off-white text-4xl font-bold ">
           I'm a{' '}
-          <Typical
-            loop={Infinity}
-            wrapper="b"
-            steps={[
+          <TypeAnimation
+            sequence={[
               'Student',
-              1000,
-              'Developer',
               1000,
               'Designer',
               1000,
-              'Engineer',
+              'Software Engineer',
               1000,
             ]}
+            wrapper="b"
+            cursor={true}
+            repeat={Infinity}
+            className="text-[#BBC8FF]"
           />
         </p>
         <p className="py-4 font-satoshi text-2xl">
