@@ -33,7 +33,7 @@ const Navbar = () => {
             >
               contact
             </Link>
-            <button className="bg-gradient-to-l from-primary-blue to-[#607EFF] font-montserrat btn text-off-white aspect-auto w-[120px] h-[50px] text-l hover:bg-right-bottom">
+            <button className="bg-gradient-to-l from-primary-blue to-[#607EFF] font-montserrat btn text-off-white aspect-auto w-[120px] h-[50px] text-l ">
               Resume
             </button>
           </div>

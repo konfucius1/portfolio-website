@@ -7,10 +7,6 @@
     @apply text-off-white;
   }
 
-  html {
-    @apply bg-dark;
-  }
-
   h1,
   h2,
   h3,
