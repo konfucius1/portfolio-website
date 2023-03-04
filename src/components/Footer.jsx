@@ -3,7 +3,7 @@ import logo from '../assets/tk-logo-grey.svg';
 
 const Footer = () => {
   return (
-    <footer className="footer footer-center p-10 bg-dark text-primary-content">
+    <footer className="footer footer-center p-10 bg-neutral-800 bg-opacity-25 text-primary-content">
       <div>
         <img src={logo} alt="Logo" className="h-10 my-4" />
         <p className="font-light">
