@@ -4,11 +4,11 @@
 
 - React
 - Tailwind CSS
-- DaisyUI
 
 #### Features
 
 - React Router 6
+- React Typical
 
 #### Installation
 

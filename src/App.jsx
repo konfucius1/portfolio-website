@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import About from './pages/About';
-import Experience from './pages/Experience';
-import Projects from './pages/Projects';
-import Contact from './pages/Contact';
-import Home from './pages/Home';
-import SharedLayout from './pages/SharedLayout';
+import About from './pages/About.jsx';
+import Experience from './pages/Experience.jsx';
+import Projects from './pages/Projects.jsx';
+import Contact from './pages/Contact.jsx';
+import Home from './pages/Home.jsx';
+import SharedLayout from './pages/SharedLayout.jsx';
 
 function App() {
   return (

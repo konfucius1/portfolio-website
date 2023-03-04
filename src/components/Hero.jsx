@@ -9,7 +9,7 @@ const Hero = () => {
           {' '}
           Hello world, my name is{' '}
         </h2>
-        <h1 className="font-rubik text-8xl py-4 text-transparent bg-clip-text bg-gradient-to-r via-[#4704AF] from-primary-blue to-[#FF2C32]">
+        <h1 className="font-rubik text-8xl py-4 text-transparent bg-clip-text bg-gradient-to-br via-[#4704AF] from-primary-blue to-[#FF2C32]">
           Thanakon Kimsan
         </h1>
         <p className="font-satoshi text-off-white text-4xl font-bold ">
