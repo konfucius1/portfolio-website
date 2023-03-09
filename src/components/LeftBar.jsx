@@ -6,7 +6,7 @@ import twitter from '../assets/twitter-boxed-svgrepo-com.svg';
 
 const LeftBar = () => {
   return (
-    <div>
+    <div className="hidden md:block">
       <div id="left" className="flex justify-center items-center min-h-screen">
         <div className="flex-none w-24">
           <img src={github} alt="" className="p-2 w-11" />

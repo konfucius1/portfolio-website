@@ -5,7 +5,7 @@ const Contact = () => {
 
       <div className="flex flex-col h-[auto] justify-center items-center">
         <h3 className="pb-8 text-2xl font-thin">kimsanthanakon@gmail.com</h3>
-        <button className="bg-off-white font-satoshi btn text-dark aspect-auto w-[120px] h-[50px] text-l ">
+        <button className="bg-off-white hover:text-off-white font-satoshi btn text-dark aspect-auto w-[120px] h-[50px] text-l ">
           Say Hello
         </button>
       </div>

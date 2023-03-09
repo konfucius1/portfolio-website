@@ -11,8 +11,8 @@ module.exports = {
       'off-white': '#FFFCF5',
     },
     fontFamily: {
-      satoshi: ['Satoshi'],
-      rubik: ['rubik'],
+      satoshi: 'Satoshi',
+      rubik: 'rubik',
     },
   },
   plugins: [require('daisyui')],

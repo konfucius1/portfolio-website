@@ -29,7 +29,7 @@ const Hero = () => {
             className="text-[#BBC8FF]"
           />
         </p>
-        <p className="py-4 font-satoshi text-2xl">
+        <p id="hero-paragraph" className="py-4 text-xl sm:text-2xl">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis
           impedit placeat repellendus assumenda unde atque modi voluptate vero
           totam, tenetur illum, sint aut labore. Minima nobis inventore dolorum
