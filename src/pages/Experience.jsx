@@ -3,7 +3,7 @@ import ProjectCard from '../components/ProjectCard';
 const Experience = () => {
   return (
     <div className="bg-dark h-screen pt-28 px-72">
-      <h2 className="pb-4">Experience</h2>
+      <h2 className="flex pb-4">Experience</h2>
 
       <div className="flex flex-row h-[auto] pb-8">
         <p>

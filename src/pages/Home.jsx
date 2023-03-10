@@ -4,7 +4,7 @@ import Hero from '../components/Hero';
 
 const Home = () => {
   return (
-    <div className="flex bg-dark px-4 pt-16 sm:px-20 sm:pt-24 ">
+    <div className="flex bg-dark px-4 pt-16 sm:px-20 sm:pt-24 h-fit">
       <LeftBar />
       <Hero />
       <RightBar />

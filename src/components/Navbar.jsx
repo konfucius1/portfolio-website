@@ -13,25 +13,25 @@ const Navbar = () => {
 
           <div className="hidden w-full md:block md:w-auto" id="navbar-default">
             <Link className="text-off-white font-light text-l pr-8" to="/about">
-              about
+              About
             </Link>
             <Link
               className="text-off-white font-light text-l pr-8"
               to="/experience"
             >
-              experience
+              Experience
             </Link>
             <Link
               className="text-off-white font-light text-l pr-8"
               to="/projects"
             >
-              projects
+              Projects
             </Link>
             <Link
               className="text-off-white font-light text-l pr-8"
               to="/contact"
             >
-              contact
+              Contact
             </Link>
             <button className="bg-gradient-to-l from-primary-blue to-[#607EFF] hover:bg-off-white font-montserrat btn text-off-white aspect-auto w-[120px] h-[50px] text-l ">
               Resume
