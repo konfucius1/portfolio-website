@@ -14,7 +14,11 @@ const About = () => {
           vel. Vitae magnam molestiae consequuntur culpa hic reprehenderit minus
           optio?
         </p>
-        <img src={image} alt="" className="mx-auto block w-72 h-auto" />
+        <div className="avatar relative flex justify-center md:justify-start z-1">
+          <div className="w-72 rounded-xl">
+            <img src={image} />
+          </div>
+        </div>
       </div>
 
       <h3>Technical Skills</h3>

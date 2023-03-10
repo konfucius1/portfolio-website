@@ -5,7 +5,7 @@ import Navbar from '../components/Navbar';
 const SharedLayout = () => {
   return (
     <div>
-      <Navbar />
+      <Navbar className="z-10 sticky top-0" />
       <section className="pt-28">
         <Outlet />
       </section>
