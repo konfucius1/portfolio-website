@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import image from '../assets/author-image.jpeg';
+import Tabs from '../components/Tabs';
 
 const About = () => {
   return (
@@ -17,6 +18,7 @@ const About = () => {
       </div>
 
       <h3>Technical Skills</h3>
+      {/* <Tabs /> */}
     </div>
   );
 };
