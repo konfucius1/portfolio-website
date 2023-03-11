@@ -44,9 +44,11 @@ const Navbar = () => {
               </Link>
             </li>
           ))}
-          <button className="bg-gradient-to-l from-primary-blue to-[#607EFF] hover:bg-off-white font-montserrat btn text-off-white aspect-auto w-32 text-l md:ml-8 ">
-            Resume
-          </button>
+          <a href={resume} target="_blank" rel="noopener noreferrer">
+            <button className="bg-gradient-to-l from-primary-blue to-[#607EFF] hover:bg-off-white font-montserrat btn text-off-white aspect-auto w-32 text-l md:ml-8 ">
+              Resume
+            </button>
+          </a>
         </ul>
       </div>
     </div>
