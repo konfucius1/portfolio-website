@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import logo from '../assets/tk-logo-main.svg';
 import menu from '../assets/hamburger-menu-svgrepo-com.svg';
 import close from '../assets/close.svg';
+import resume from '../assets/Thanakon-Kimsan-CV.pdf';
 
 const Navbar = () => {
   let Links = [

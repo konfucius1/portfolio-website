@@ -6,7 +6,7 @@ const SharedLayout = () => {
   return (
     <div>
       <Navbar className="z-10 sticky top-0" />
-      <section className="pt-28">
+      <section className="py-28">
         <Outlet />
       </section>
       <Footer />

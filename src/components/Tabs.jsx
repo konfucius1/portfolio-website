@@ -7,58 +7,46 @@ function classNames(...classes) {
 
 export default function Example() {
   let [categories] = useState({
-    Recent: [
+    Frontend: [
       {
         id: 1,
-        title: 'Does drinking coffee make you smarter?',
-        date: '5h ago',
-        commentCount: 5,
-        shareCount: 2,
+        title: 'HTML/CSS/JavaScript',
+        date: 'Building simple websites the classic way',
       },
       {
         id: 2,
-        title: "So you've bought coffee... now what?",
-        date: '2h ago',
-        commentCount: 3,
-        shareCount: 2,
+        title: 'ReactJS/TailwindCSS',
+        date: '',
+      },
+      {
+        id: 3,
+        title: 'ReactJS/TypeScript/Redux',
+        date: 'Creating innovative wep applications on the client side',
       },
     ],
-    Popular: [
+    Backend: [
       {
         id: 1,
-        title: 'Is tech making coffee better or worse?',
-        date: 'Jan 7',
-        commentCount: 29,
-        shareCount: 16,
+        title: 'Spring Boot/Kotlin',
+        date: 'Building elegant and scalable server side applications with Java',
       },
       {
         id: 2,
-        title: 'The most innovative things happening in coffee',
-        date: 'Mar 19',
-        commentCount: 24,
-        shareCount: 12,
+        title: 'MySQL/PostgreSQL',
+        date: 'Simple relational database management solutions',
       },
     ],
-    Trending: [
-      {
-        id: 1,
-        title: 'Ask Me Anything: 10 answers to your questions about coffee',
-        date: '2d ago',
-        commentCount: 9,
-        shareCount: 5,
-      },
+    Embedded: [
       {
         id: 2,
-        title: "The worst advice we've ever heard about coffee",
-        date: '4d ago',
-        commentCount: 1,
-        shareCount: 2,
+        title: 'NASA FPrime (C++)/FreeRTOS',
+        date: 'Developing real-time On-Board computer for Cube Satellite',
       },
     ],
   });
 
   return (
-    <div className="w-full max-w-md px-2 py-16 sm:px-0">
+    <div className="w-full max-w-md px-2 pb-16 sm:max-w-2xl sm:px-0">
       <Tab.Group>
         <Tab.List className="flex space-x-1 rounded-xl bg-blue-900/20 p-1">
           {Object.keys(categories).map((category) => (
@@ -66,11 +54,11 @@ export default function Example() {
               key={category}
               className={({ selected }) =>
                 classNames(
-                  'w-full rounded-lg py-2.5 text-sm font-medium leading-5 text-blue-700',
-                  'ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2',
+                  'bg-primary-blue hover:bg-[#4704AF] w-full rounded-lg py-2.5 text-sm font-medium leading-5 text-blue-700',
+                  'ring-primary-blue ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2',
                   selected
-                    ? 'bg-white shadow'
-                    : 'text-blue-100 hover:bg-white/[0.12] hover:text-white'
+                    ? 'bg-primary-blue shadow'
+                    : 'text-blue-100 hover:bg-primary-blue/[0.12] hover:text-white'
                 )
               }
             >
@@ -99,10 +87,6 @@ export default function Example() {
 
                     <ul className="mt-1 flex space-x-1 text-xs font-normal leading-4 text-gray-500">
                       <li>{post.date}</li>
-                      <li>&middot;</li>
-                      <li>{post.commentCount} comments</li>
-                      <li>&middot;</li>
-                      <li>{post.shareCount} shares</li>
                     </ul>
 
                     <a
