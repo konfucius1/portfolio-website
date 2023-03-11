@@ -8,7 +8,7 @@ const Hero = () => {
         {' '}
         Hello world, my name is{' '}
       </h2>
-      <h1 className="font-rubik text-4xl sm:text-8xl py-4 sm:text-transparent sm:bg-clip-text sm:bg-gradient-to-br sm:via-[#4704AF] text-off-white sm:from-primary-blue sm:to-[#FF2C32]">
+      <h1 className="font-rubik text-6xl sm:text-8xl py-4 text-transparent bg-clip-text bg-gradient-to-br via-[#4704AF]  from-primary-blue to-[#FF2C32]">
         Thanakon Kimsan
       </h1>
       <p className="font-satoshi text-off-white text-3xl sm:text-4xl font-bold ">

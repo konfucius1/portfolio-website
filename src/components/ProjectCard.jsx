@@ -9,7 +9,7 @@ const ProjectCard = ({
   sourceCode,
 }) => {
   return (
-    <div className="card card-side bg-off-white/5 shadow-xl my-4 sm:flex sm:flex-row sm:items-center sm:justify-between sm:max-h-64">
+    <div className="card card-side bg-off-white/5 shadow-xl my-4 sm:flex sm:flex-row sm:items-center sm:justify-between sm:max-h-64 filter grayscale hover:grayscale-0">
       <figure
         className="sm:w-96 sm:bg-cover sm:bg-center sm:rounded-tl-xl sm:rounded-bl-xl h-64"
         style={{ backgroundImage: `url(${image})` }}

@@ -9,17 +9,19 @@ const Projects = () => {
     {
       id: 1,
       name: 'Fitbeats',
-      description: 'Spotify web app',
-      techStack: ['ReactJS', 'NodeJS'],
+      description:
+        'Utilises the Spotify API to provide users with the ability to generate custom workout playlists based on their preferred music genre, mood, exercise duration and gets you motivated.                     ',
+      techStack: ['ReactJS', 'NodeJS', 'TailwindCSS'],
       image: FitBeats,
       sourceCode: 'https://github.com/',
       liveDemo: 'https://netlify.com/',
     },
     {
       id: 2,
-      name: 'ShadowPirate',
-      description: 'Java Game',
-      techStack: ['Java'],
+      name: 'Shadow Pirate',
+      description:
+        'Pirate combat game involving projectile rendering and object collision. Built with implementations of object oriented principles. Player controls Sailor, aim is to retrieve stolen crown Jewels from pirates',
+      techStack: ['Java', 'Bagel', 'IntelliJ'],
       image: ShadowPirate,
       sourceCode: 'https://github.com/',
     },
