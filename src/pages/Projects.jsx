@@ -3,6 +3,7 @@ import RightBar from '../components/RightBar';
 import ProjectCard from '../components/ProjectCard';
 import ShadowPirate from '../assets/projects/shadow-pirate-cover.png';
 import FitBeats from '../assets/projects/fitbeats-cover.png';
+import ColorFlipper from '../assets/projects/color-flipper.jpg';
 
 const Projects = () => {
   let projectData = [
@@ -24,6 +25,16 @@ const Projects = () => {
       techStack: ['Java', 'Bagel', 'IntelliJ'],
       image: ShadowPirate,
       sourceCode: 'https://github.com/',
+    },
+    {
+      id: 3,
+      name: 'Color Flipper',
+      description:
+        'A color flipper website that generates random colors and displays the corresponding hex code, providing an easy way to find inspiration for color schemes or quickly pick a color.',
+      techStack: ['HTML', 'CSS', 'JavaScript'],
+      image: ColorFlipper,
+      sourceCode: 'https://github.com/',
+      liveDemo: 'https://netlify.com/',
     },
   ];
 
