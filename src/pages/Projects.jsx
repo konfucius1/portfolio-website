@@ -45,10 +45,8 @@ const Projects = () => {
         <h2 className="pb-4">Projects</h2>
 
         <p className="pb-4">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
-          ut quasi dolore eos facere ipsum, explicabo ducimus sequi fuga illo
-          vel. Vitae magnam molestiae consequuntur culpa hic reprehenderit minus
-          optio?
+          This section showcase some of the work I've built. Feel free to
+          contact me for any questions.
         </p>
 
         <div>

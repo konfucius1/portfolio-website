@@ -40,14 +40,14 @@ const ProjectCard = ({
             rel="noopener noreferrer"
             className="btn btn-primary btn-sm"
           >
-            Source Code
+            GitHub
           </a>
           {liveDemo ? (
             <a
               href={liveDemo}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-secondary btn-sm ml-2"
+              className="btn btn-secondary btn-sm "
             >
               Live Demo
             </a>

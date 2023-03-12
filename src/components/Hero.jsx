@@ -22,10 +22,9 @@ const Hero = () => {
         />
       </p>
       <p id="hero-paragraph" className="py-4 text-l sm:text-2xl">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis
-        impedit placeat repellendus assumenda unde atque modi voluptate vero
-        totam, tenetur illum, sint aut labore. Minima nobis inventore dolorum
-        distinctio? Id!
+        Passionate about building software products that makes lives better.
+        Currently focusing on developing software development skills and gaining
+        industry experience.
       </p>
     </div>
   );
