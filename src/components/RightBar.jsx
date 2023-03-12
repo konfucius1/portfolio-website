@@ -1,15 +1,22 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
 const RightBar = () => {
   return (
     <div className="hidden md:block">
-      <div id="right" className="flex justify-center items-center min-h-screen">
+      <motion.div
+        id="right"
+        className="flex justify-center items-center min-h-screen"
+        initial={{ x: 200, opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{ duration: 0.8 }}
+      >
         <div className="flex-none w-24">
           <p className="font-satoshi origin-right rotate-90">
             kimsanthanakon@gmail.com
           </p>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };

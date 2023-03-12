@@ -15,5 +15,9 @@ module.exports = {
       rubik: 'rubik',
     },
   },
-  plugins: [require('daisyui'), require('tailwind-scrollbar')],
+  plugins: [
+    require('daisyui'),
+    require('tailwind-scrollbar'),
+    // require('tailwindcss-animatecss'),
+  ],
 };
