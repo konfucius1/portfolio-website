@@ -4,19 +4,17 @@ import linkedin from '../assets/linkedin-svgrepo-com.svg';
 import instagram from '../assets/instagram-svgrepo-com.svg';
 import twitter from '../assets/twitter-boxed-svgrepo-com.svg';
 
-const LeftBar = () => {
+const MobileSocial = () => {
   return (
-    <div className="md:hidden">
-      <div id="left" className="flex justify-start items-start min-h-screen">
-        <div className="flex-none w-24">
-          <img src={github} alt="" className="p-2 w-11" />
-          <img src={linkedin} alt="" className="p-2 w-11" />
-          <img src={instagram} alt="" className="p-2 w-11" />
-          <img src={twitter} alt="" className="p-2 w-11" />
-        </div>
+    <div className="flex justify-end items-end md:hidden py-2">
+      <div id="left" className="flex flex-row">
+        <img src={github} alt="" className="p-2 w-11" />
+        <img src={linkedin} alt="" className="p-2 w-11" />
+        <img src={instagram} alt="" className="p-2 w-11" />
+        <img src={twitter} alt="" className="p-2 w-11" />
       </div>
     </div>
   );
 };
 
-export default LeftBar;
+export default MobileSocial;

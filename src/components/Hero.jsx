@@ -1,5 +1,6 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
+import MobileSocial from '../components/MobileSocial';
 
 const Hero = () => {
   return (
@@ -26,7 +27,8 @@ const Hero = () => {
         Currently focusing on developing software development skills and gaining
         industry experience.
       </p>
-      <button className="btn bg-primary text-off-white mt-4">About Me</button>
+      <button className="btn bg-primary text-off-white mt-2">About Me</button>
+      <MobileSocial />
     </div>
   );
 };

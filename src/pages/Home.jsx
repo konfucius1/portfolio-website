@@ -1,6 +1,5 @@
 import LeftBar from '../components/LeftBar';
 import RightBar from '../components/RightBar';
-import MobileSocial from '../components/MobileSocial';
 import Hero from '../components/Hero';
 import Divider from '../components/Divider';
 
@@ -11,7 +10,6 @@ const Home = () => {
         <LeftBar />
         <Hero />
         <RightBar />
-        {/* <MobileSocial /> */}
       </div>
       <Divider />
     </>
