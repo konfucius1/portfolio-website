@@ -5,6 +5,7 @@ import ShadowPirate from '../assets/projects/shadow-pirate-cover.png';
 import FitBeats from '../assets/projects/fitbeats-cover.png';
 import ColorFlipper from '../assets/projects/color-flipper.jpg';
 import ProjectCardNI from '../components/ProjectCardNI';
+import { motion } from 'framer-motion';
 
 const Projects = () => {
   let projectData = [
@@ -69,19 +70,43 @@ const Projects = () => {
   ];
 
   return (
-    <div className="flex bg-dark px-4 pt-16 sm:px-20 sm:pt-24 relative z-1">
+    <motion.div
+      className="flex bg-dark px-4 pt-16 sm:px-20 sm:pt-24 relative z-1"
+      initial={{ opacity: 0, y: -50 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5 }}
+    >
       <LeftBar />
-      <div className="px-8 sm:px-16 sm:mx-16 md:px-8 md:mx-8 flex flex-col">
-        <h2 className="pb-4">Projects</h2>
+      <motion.div
+        className="px-8 sm:px-16 sm:mx-16 md:px-8 md:mx-8 flex flex-col"
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.2 }}
+      >
+        <motion.h2
+          className="pb-4"
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.4 }}
+        >
+          Projects
+        </motion.h2>
 
-        <p className="pb-4">
+        <motion.p
+          className="pb-4"
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.6 }}
+        >
           This section showcase some of the work I've built. Feel free to
           contact me for any questions.
-        </p>
+        </motion.p>
 
-        <p></p>
-
-        <div>
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.8 }}
+        >
           {projectData.map((project) => (
             <ProjectCard
               key={project.id}
@@ -93,11 +118,23 @@ const Projects = () => {
               liveDemo={project.liveDemo}
             />
           ))}
-        </div>
+        </motion.div>
 
-        <p className="pt-8">Some more of my previous projects</p>
+        <motion.p
+          className="pt-8"
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 1 }}
+        >
+          Some more of my previous projects
+        </motion.p>
 
-        <div className="sm:grid sm:grid-cols-3 sm:gap-4 flex flex-col gap-4">
+        <motion.div
+          className="sm:grid sm:grid-cols-3 sm:gap-4 flex flex-col gap-4"
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 1.2 }}
+        >
           {otherProjects.map((project) => (
             <ProjectCardNI
               key={project.id}
@@ -108,10 +145,10 @@ const Projects = () => {
               liveDemo={project.liveDemo}
             />
           ))}
-        </div>
-      </div>
+        </motion.div>
+      </motion.div>
       <RightBar />
-    </div>
+    </motion.div>
   );
 };
 
