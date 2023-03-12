@@ -7,7 +7,7 @@ import tiktok from '../assets/social-media-icons/tiktok-outline-svgrepo-com.svg'
 
 const MobileSocial = () => {
   return (
-    <div className="flex justify-center items-center md:hidden pt-24">
+    <div className="flex justify-center items-center md:hidden py-24">
       <div id="left" className="flex flex-row">
         <a
           href="https://github.com/konfucius1"

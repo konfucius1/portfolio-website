@@ -4,6 +4,7 @@ import Experience from './pages/Experience.jsx';
 import Projects from './pages/Projects.jsx';
 import Contact from './pages/Contact.jsx';
 import Home from './pages/Home.jsx';
+import Error from './pages/Error.jsx';
 import SharedLayout from './pages/SharedLayout.jsx';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="experience" element={<Experience />} />
           <Route path="projects" element={<Projects />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="*" element={<Error />} />
         </Route>
       </Routes>
     </BrowserRouter>

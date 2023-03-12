@@ -79,6 +79,8 @@ const Projects = () => {
           contact me for any questions.
         </p>
 
+        <p></p>
+
         <div>
           {projectData.map((project) => (
             <ProjectCard

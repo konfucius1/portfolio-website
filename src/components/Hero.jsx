@@ -4,8 +4,8 @@ import MobileSocial from '../components/MobileSocial';
 
 const Hero = () => {
   return (
-    <div id="centre" className="px-8 md:px-8 md:mx-8 pb-20">
-      <h2 className="font-satoshi text-base sm:text-2xl font-medium text-[#BBC8FF]">
+    <div id="centre" className="px-8 md:px-8 md:mx-8 pt-16">
+      <h2 className="font-satoshi text-lg sm:text-2xl font-medium text-[#BBC8FF]">
         {' '}
         Hello world, my name is{' '}
       </h2>
@@ -22,12 +22,23 @@ const Hero = () => {
           className="text-[#BBC8FF]"
         />
       </p>
-      <p id="hero-paragraph" className="py-4 text-l sm:text-2xl ">
+      <p id="hero-paragraph" className="py-4 text-l sm:text-2xl">
         Passionate about building software products that makes lives better.
         Currently focusing on developing software development skills and gaining
         industry experience.
       </p>
       <MobileSocial />
+      <div className="flex flex-row justify-between items-center rounded-3xl mt-60 bg-gradient-to-r via-[#132c9b]  from-primary-blue to-[#182768]">
+        <div className="card">
+          <div className="card-body">
+            <h2 className="card-title">Did I get your attention?</h2>
+            <p>Learn more about my technical skills and background</p>
+          </div>
+        </div>
+        <div className="px-8">
+          <button className="btn bg-[#10071c]">Learn More</button>
+        </div>
+      </div>
     </div>
   );
 };
