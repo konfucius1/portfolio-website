@@ -1,6 +1,7 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import MobileSocial from '../components/MobileSocial';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
@@ -22,21 +23,27 @@ const Hero = () => {
           className="text-[#BBC8FF]"
         />
       </p>
-      <p id="hero-paragraph" className="py-4 text-l sm:text-2xl">
+      <p id="hero-paragraph" className="py-4 text-l font-thin sm:text-2xl">
         Passionate about building software products that makes lives better.
         Currently focusing on developing software development skills and gaining
         industry experience.
       </p>
       <MobileSocial />
-      <div className="flex flex-row justify-between items-center rounded-3xl mt-60 bg-gradient-to-r via-[#132c9b]  from-primary-blue to-[#182768]">
+      <div className="flex flex-row justify-between items-center rounded-3xl my-28 sm:mt-52 bg-gradient-to-r via-[#132c9b]  to-primary-blue from-[#182768]">
         <div className="card">
           <div className="card-body">
-            <h2 className="card-title">Did I get your attention?</h2>
-            <p>Learn more about my technical skills and background</p>
+            <h2 className="card-title font-rubik">Did I get your attention?</h2>
+            <p className="font-satoshi font-thin">
+              Learn more about my technical skills and background
+            </p>
           </div>
         </div>
         <div className="px-8">
-          <button className="btn bg-[#10071c]">Learn More</button>
+          <Link to="/about">
+            <button className="btn bg-[#10071c] font-rubik text-off-white rounded-2xl w-36">
+              Learn More
+            </button>
+          </Link>
         </div>
       </div>
     </div>

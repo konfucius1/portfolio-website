@@ -11,6 +11,7 @@ const Divider = () => {
           image={ProjectBG}
           name="Projects"
           desc="Check out some of my previous work!"
+          path="/projects"
         />
       </div>
       <div className="divider lg:divider-horizontal"></div>
@@ -19,6 +20,7 @@ const Divider = () => {
           image={ExperienceBG}
           name="Experience"
           desc="Stay up to date with my current work!"
+          path="/experience"
         />
       </div>
     </div>

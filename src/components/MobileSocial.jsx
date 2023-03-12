@@ -7,7 +7,7 @@ import tiktok from '../assets/social-media-icons/tiktok-outline-svgrepo-com.svg'
 
 const MobileSocial = () => {
   return (
-    <div className="flex justify-center items-center md:hidden py-24">
+    <div className="flex justify-center items-center md:hidden pt-24">
       <div id="left" className="flex flex-row">
         <a
           href="https://github.com/konfucius1"
@@ -31,14 +31,14 @@ const MobileSocial = () => {
           <img src={instagram} alt="Instagram" className="p-2 w-11" />
         </a>
         <a
-          href="https://www.youtube.com/channel/yourchannel"
+          href="https://www.youtube.com/channel/UCccATyxN0ssiIUZvTu3B4AA"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img src={youtube} alt="YouTube" className="p-2 w-11" />
         </a>
         <a
-          href="https://www.tiktok.com/@yourusername"
+          href="https://www.tiktok.com/@thanakon_kimsan?is_from_webapp=1&sender_device=pc"
           target="_blank"
           rel="noopener noreferrer"
         >
