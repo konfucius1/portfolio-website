@@ -15,6 +15,10 @@ const Navbar = () => {
 
   let [open, setOpen] = useState(false);
 
+  const handleLinkClick = () => {
+    setOpen(false);
+  };
+
   return (
     <div className="shadow-md w-full fixed top-0 left-0 z-10">
       <div className="md:flex bg-dark flex items-center justify-between py-4 md:px-20 md:py-10 px-7 mx-auto">
@@ -38,6 +42,7 @@ const Navbar = () => {
             <li key={link.link} className="md:ml-8 text-l md:my-0 my-7">
               <Link
                 to={link.link}
+                onClick={handleLinkClick}
                 className="text-off-white hover:text-primary-blue duration-500"
               >
                 {link.name}

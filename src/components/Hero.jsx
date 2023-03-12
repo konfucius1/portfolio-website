@@ -3,7 +3,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 const Hero = () => {
   return (
-    <div id="centre" className="px-8 sm:px-16 sm:mx-16 md:px-8 md:mx-8">
+    <div id="centre" className="px-8 sm:px-16 sm:mx-16 md:px-8 md:mx-8 pb-20">
       <h2 className="font-satoshi text-base sm:text-4xl font-medium text-[#BBC8FF]">
         {' '}
         Hello world, my name is{' '}
@@ -21,11 +21,12 @@ const Hero = () => {
           className="text-[#BBC8FF]"
         />
       </p>
-      <p id="hero-paragraph" className="py-4 text-l sm:text-2xl">
+      <p id="hero-paragraph" className="py-4 text-l sm:text-2xl ">
         Passionate about building software products that makes lives better.
         Currently focusing on developing software development skills and gaining
         industry experience.
       </p>
+      <button className="btn bg-primary text-off-white mt-4">About Me</button>
     </div>
   );
 };
