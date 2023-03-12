@@ -4,6 +4,7 @@ import ProjectCard from '../components/ProjectCard';
 import ShadowPirate from '../assets/projects/shadow-pirate-cover.png';
 import FitBeats from '../assets/projects/fitbeats-cover.png';
 import ColorFlipper from '../assets/projects/color-flipper.jpg';
+import ProjectCardNI from '../components/ProjectCardNI';
 
 const Projects = () => {
   let projectData = [
@@ -38,6 +39,35 @@ const Projects = () => {
     },
   ];
 
+  let otherProjects = [
+    {
+      id: 1,
+      name: 'Point-Region Quadtree',
+      description:
+        'Urban footpath data processor into dictionary format by implementing a quadtree data structure for point-region and range query analysis.',
+      techStack: ['C', 'Valgrind', 'GDB'],
+      sourceCode: 'https://github.com/',
+      liveDemo: 'https://netlify.com/',
+    },
+    {
+      id: 2,
+      name: 'Dictionary Linked List',
+      description:
+        'Dictionary will allow users to search for footpath records by specific attributes, with the data being read from a file and stored into the linked list.',
+      techStack: ['C', 'Valgrind', 'GDB'],
+      sourceCode: 'https://github.com/',
+    },
+    {
+      id: 3,
+      name: 'RESTful Web App',
+      description:
+        'A backend application that handles HTTP requests with service functions with an SQL database',
+      techStack: ['Spring Boot', 'Kotlin'],
+      sourceCode: 'https://github.com/',
+      liveDemo: 'https://netlify.com/',
+    },
+  ];
+
   return (
     <div className="flex bg-dark px-4 pt-16 sm:px-20 sm:pt-24 relative z-1">
       <LeftBar />
@@ -54,6 +84,21 @@ const Projects = () => {
             <ProjectCard
               key={project.id}
               image={project.image}
+              name={project.name}
+              description={project.description}
+              techStack={project.techStack}
+              sourceCode={project.sourceCode}
+              liveDemo={project.liveDemo}
+            />
+          ))}
+        </div>
+
+        <p className="pt-8">Some more of my previous projects</p>
+
+        <div className="sm:grid sm:grid-cols-3 sm:gap-4 flex flex-col gap-4">
+          {otherProjects.map((project) => (
+            <ProjectCardNI
+              key={project.id}
               name={project.name}
               description={project.description}
               techStack={project.techStack}
