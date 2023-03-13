@@ -78,7 +78,7 @@ const Projects = () => {
     >
       <LeftBar />
       <motion.div
-        className="px-8 sm:px-16 sm:mx-16 md:px-8 md:mx-8 flex flex-col"
+        className="px-8 sm:px-16 sm:mx-16 md:px-8 md:mx-8 flex flex-col text-off-white"
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}

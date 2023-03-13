@@ -85,7 +85,7 @@ const Experience = () => {
       <LeftBar />
 
       <div>
-        <h3 className="sm:flex sm:justify-center sm:items-center pt-16 absolute top-0 left-1/2 transform -translate-x-1/2 uppercase tracking-[6px] text-gray-500 text-sm sm:text-2xl">
+        <h3 className="sm:flex sm:justify-center sm:items-center pt-16 absolute top-0 left-1/2 transform -translate-x-1/2 uppercase tracking-[6px] text-gray-500 text-sm sm:text-2xl text-off-white">
           Experience
         </h3>
       </div>
@@ -96,7 +96,7 @@ const Experience = () => {
         transition={{ duration: 1.5 }}
         className="h-screen flex relative overflow-hidden flex-col text-lft md:flex-row max-w-full px-2 justify-evenly mx-auto items-center mb-8 mt-16"
       >
-        <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-off-white/80">
+        <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-off-white/80 text-off-white">
           {experiences.map((experience) => (
             <ExperienceCard
               key={experience.id}

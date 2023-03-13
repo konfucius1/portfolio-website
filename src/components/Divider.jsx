@@ -5,7 +5,7 @@ import ExperienceBG from '../assets/background-photos/experience-bg.jpg';
 
 const Divider = () => {
   return (
-    <div className="flex flex-col w-full lg:flex-row px-8 py-8 justify-center items-center">
+    <div className="flex flex-col w-full lg:flex-row px-8 py-8 justify-center items-center font-rubik">
       <div className="grid flex-grow md:w-1/2 md:h-64 card bg-base-300 rounded-box place-items-center">
         <HeroImage
           image={ProjectBG}

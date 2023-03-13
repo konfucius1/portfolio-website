@@ -15,7 +15,9 @@ const About = () => {
       <LeftBar />
       <div className="flex flex-col justify-start items-start">
         <div className="px-4 sm:px-16 sm:mx-16 md:px-8 md:mx-8">
-          <h2 className="pb-4 text-center sm:text-left">About Me</h2>
+          <h2 className="pb-4 text-center sm:text-left text-off-white">
+            About Me
+          </h2>
 
           <motion.div
             className="flex flex-col md:flex-row bg-neutral-700 bg-opacity-20 p-4 h-auto rounded-xl w-fit mb-8"
@@ -24,7 +26,7 @@ const About = () => {
             transition={{ delay: 0.4 }}
           >
             <div class=" md:px-4 text-base">
-              <p className="pb-4">
+              <p className="py-4 text-off-white">
                 Greetings, my name is Thanakon and I am passionate about
                 bringing my work to fruition. I commenced my studies in 2021
                 with a major in Computing Software Systems and subsequently
@@ -32,7 +34,7 @@ const About = () => {
                 the end of 2022.
               </p>
 
-              <p className="pb-4">
+              <p className="pb-4 text-off-white">
                 I am currently in my final year of study at the University of
                 Melbourne, where I am also serving as a Software Engineering
                 Intern at Suncorp Group and a Project Team Lead at Melbourne
@@ -43,7 +45,7 @@ const About = () => {
             </div>
 
             <div className="avatar relative flex justify-center md:justify-start z-1">
-              <div className="w-72  pt-4 sm:pt-0">
+              <div className="w-72 pt-4 sm:pt-0">
                 <motion.img
                   src={image}
                   initial={{ opacity: 0, scale: 0.5 }}
@@ -56,7 +58,7 @@ const About = () => {
           </motion.div>
 
           <motion.div
-            className="flex flex-col justify-center items-center pt-8 sm:pt-16"
+            className="flex flex-col justify-center items-center pt-8 sm:pt-16 text-off-white"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.8 }}

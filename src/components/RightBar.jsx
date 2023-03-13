@@ -12,7 +12,7 @@ const RightBar = () => {
         transition={{ duration: 0.8 }}
       >
         <div className="flex-none w-24">
-          <p className="font-satoshi origin-right rotate-90">
+          <p className="font-satoshi text-off-white origin-right rotate-90">
             kimsanthanakon@gmail.com
           </p>
         </div>
