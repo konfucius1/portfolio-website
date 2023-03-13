@@ -11,7 +11,7 @@ module.exports = {
       'off-white': '#FFFCF5',
     },
     fontFamily: {
-      satoshi: 'Satoshi',
+      satoshi: ['Satoshi', 'sans-serif'],
       rubik: 'rubik',
     },
   },
