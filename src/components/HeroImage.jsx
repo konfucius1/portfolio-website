@@ -12,7 +12,7 @@ const HeroImage = ({ image, name, desc, path }) => {
       <div className="hero-overlay bg-opacity-50 "></div>
       <div className="hero-content text-center text-off-white shadow-sm">
         <div className="max-w-md">
-          <h1 className="font-satoshi mb-5 text-5xl font-bold">{name}</h1>
+          <h1 className="font-satoshi mb-5 text-4xl font-bold">{name}</h1>
           <p className="font-satoshi mb-5 text-xl">{desc}</p>
 
           <Link to={path}>

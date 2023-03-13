@@ -48,7 +48,7 @@ const Hero = () => {
           </div>
           <div className="px-8 pb-8 sm:pb-0">
             <Link to="/about">
-              <button className="font-rubik btn bg-[#10071c] font-rubik text-off-white rounded-2xl w-36">
+              <button className="font-rubik btn bg-[#10071c] text-off-white rounded-2xl w-36">
                 Learn More
               </button>
             </Link>
