@@ -27,7 +27,7 @@ const Hero = () => {
           id="hero-paragraph"
           className="py-4 text-base sm:text-lg md:text-2xl font-thin "
         >
-          Passionate about building software products that make lives better.
+          Passionate about building software products that makes lives better.
           Currently focusing on developing software development skills and
           gaining industry experience.
         </p>

@@ -79,36 +79,38 @@ const Experience = () => {
   ];
 
   return (
-    <div>
-      <div className="flex bg-dark px-4 pt-16 sm:px-20 sm:pt-24 relative z-1">
-        <LeftBar />
-        <h3 className="pt-16 absolute top-0 uppercase tracking-[20px] text-gray-500 text-2xl">
+    <div className="flex bg-dark px-4 pt-16 sm:px-20 sm:pt-24 relative z-1">
+      <LeftBar />
+
+      <div>
+        <h3 className="sm:flex sm:justify-center sm:items-center pt-16 absolute top-0 left-1/2 transform -translate-x-1/2 uppercase tracking-[6px] text-gray-500 text-sm sm:text-2xl">
           Experience
         </h3>
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 1.5 }}
-          className="h-screen flex relative overflow-hidden flex-col text-lft md:flex-row max-w-full px-2 justify-evenly mx-auto items-center "
-        >
-          <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-off-white/80">
-            {experiences.map((experience) => (
-              <ExperienceCard
-                key={experience.id}
-                name={experience.name}
-                title={experience.title}
-                techStack={experience.techStack}
-                image={experience.image}
-                start={experience.start}
-                end={experience.end}
-                desc={experience.desc}
-              />
-            ))}
-          </div>
-        </motion.div>
-
-        <RightBar />
       </div>
+
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 1.5 }}
+        className="h-screen flex relative overflow-hidden flex-col text-lft md:flex-row max-w-full px-2 justify-evenly mx-auto items-center mb-8"
+      >
+        <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-off-white/80">
+          {experiences.map((experience) => (
+            <ExperienceCard
+              key={experience.id}
+              name={experience.name}
+              title={experience.title}
+              techStack={experience.techStack}
+              image={experience.image}
+              start={experience.start}
+              end={experience.end}
+              desc={experience.desc}
+            />
+          ))}
+        </div>
+      </motion.div>
+
+      <RightBar />
     </div>
   );
 };
