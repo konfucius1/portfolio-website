@@ -10,10 +10,12 @@ const ProjectCard = ({
 }) => {
   return (
     <div className="card card-side bg-off-white/5 shadow-xl my-4 sm:flex sm:flex-row sm:items-center sm:justify-between sm:max-h-64 filter grayscale hover:grayscale-0">
-      <figure
-        className="sm:w-96 sm:bg-cover sm:bg-center sm:rounded-tl-xl sm:rounded-bl-xl h-64"
-        style={{ backgroundImage: `url(${image})` }}
-      ></figure>
+      <a href={sourceCode} target="_blank" rel="noopener noreferrer">
+        <figure
+          className="sm:w-96 sm:bg-cover sm:bg-center sm:rounded-tl-xl sm:rounded-bl-xl h-64"
+          style={{ backgroundImage: `url(${image})` }}
+        ></figure>
+      </a>
 
       <div className="card-body flex-1">
         <h2 className="card-title text-lg font-medium mb-2 sm:mb-0 sm:mr-4">
@@ -38,7 +40,7 @@ const ProjectCard = ({
             href={sourceCode}
             target="_blank"
             rel="noopener noreferrer"
-            className="btn btn-primary btn-sm"
+            className="btn btn-primary btn-sm sm:hidden"
           >
             GitHub
           </a>

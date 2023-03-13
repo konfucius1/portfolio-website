@@ -100,6 +100,10 @@ const Projects = () => {
           contact me for any questions.
         </motion.p>
 
+        <p className="italic opacity-75">
+          Hint: clicking on image leads to project repository
+        </p>
+
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
@@ -119,7 +123,7 @@ const Projects = () => {
         </motion.div>
 
         <motion.p
-          className="pt-8"
+          className="py-4"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 1 }}
