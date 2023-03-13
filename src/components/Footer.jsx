@@ -18,10 +18,6 @@ const Footer = () => {
         <p className="font-rubik font-semibold opacity-80">
           --- Thanakon Kimsan --- <br />
         </p>
-        <p className="font-rubik font-medium">
-          Website best viewed on Chrome and Firefox
-          <br />
-        </p>
         <p className="font-rubik opacity-70">
           Copyright © 2023 - All right reserved
         </p>
