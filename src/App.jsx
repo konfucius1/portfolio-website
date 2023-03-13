@@ -9,18 +9,20 @@ import SharedLayout from './pages/SharedLayout.jsx';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<SharedLayout />}>
-          <Route index element={<Home />}></Route>
-          <Route path="about" element={<About />} />
-          <Route path="experience" element={<Experience />} />
-          <Route path="projects" element={<Projects />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="*" element={<Error />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<SharedLayout />}>
+            <Route index element={<Home />}></Route>
+            <Route path="about" element={<About />} />
+            <Route path="experience" element={<Experience />} />
+            <Route path="projects" element={<Projects />} />
+            <Route path="contact" element={<Contact />} />
+            <Route path="*" element={<Error />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 

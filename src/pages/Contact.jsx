@@ -20,7 +20,7 @@ const Contact = () => {
       transition={{ duration: 0.8 }}
     >
       <motion.h2
-        className="pb-8 text-3xl sm:text-6xl"
+        className="pb-8 text-3xl sm:text-6xl text-off-white"
         initial={{ y: -50, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.2, duration: 0.8 }}
@@ -35,7 +35,7 @@ const Contact = () => {
         transition={{ delay: 0.4, duration: 0.8 }}
       >
         <motion.h3
-          className="pb-8 text-xl sm:text-2xl font-thin"
+          className="pb-8 text-xl sm:text-2xl font-thin text-off-white"
           initial={{ y: -20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.6, duration: 0.8 }}

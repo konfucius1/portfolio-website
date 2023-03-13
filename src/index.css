@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  body {
-    @apply text-off-white;
-  }
+.body {
+  background-color: #0d0c12;
+}
 
+@layer base {
   h1,
   h2,
   h3,
