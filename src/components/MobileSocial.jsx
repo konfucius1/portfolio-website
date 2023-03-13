@@ -35,7 +35,7 @@ const MobileSocial = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={youtube} alt="YouTube" className="p-2 w-11" />
+          <img src={youtube} alt="YouTube" className="p-2 h-11 w-11" />
         </a>
         <a
           href="https://www.tiktok.com/@thanakon_kimsan?is_from_webapp=1&sender_device=pc"
