@@ -1,6 +1,24 @@
 import { useState } from 'react';
 import { Tab } from '@headlessui/react';
 
+// frontend
+import html from '../assets/skills/frontend/brand-html5-svgrepo-com.svg';
+import css from '../assets/skills/frontend/css-3-svgrepo-com.svg';
+import javascript from '../assets/skills/frontend/javascript-svgrepo-com.svg';
+import react from '../assets/skills/frontend/react-javascript-js-framework-facebook-svgrepo-com.svg';
+import tailwind from '../assets/skills/frontend/tailwind-svgrepo-com.svg';
+import typescript from '../assets/skills/frontend/typescript-official-svgrepo-com.svg';
+
+// backend
+import java from '../assets/skills/backend/java-svgrepo-com.svg';
+import spring from '../assets/skills/backend/spring-icon-svgrepo-com.svg';
+import kotlin from '../assets/skills/backend/kotlin-svgrepo-com.svg';
+import mysql from '../assets/skills/backend/mysql-logo-svgrepo-com.svg';
+import postgre from '../assets/skills/backend/postgresql-svgrepo-com.svg';
+import python from '../assets/skills/backend/python-svgrepo-com.svg';
+import cpp from '../assets/skills/embedded/c-plus-plus-svgrepo-com.svg';
+import linux from '../assets/skills/embedded/linux-svgrepo-com.svg';
+
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
 }
@@ -10,37 +28,36 @@ export default function Example() {
     Frontend: [
       {
         id: 1,
-        title: 'HTML/CSS/JavaScript',
-        date: 'Building simple websites the classic way',
-      },
-      {
-        id: 2,
-        title: 'ReactJS/TailwindCSS',
-        date: '',
-      },
-      {
-        id: 3,
-        title: 'ReactJS/TypeScript/Redux',
-        date: 'Creating innovative wep applications on the client side',
+        techStack: [html, css, javascript, react, tailwind, typescript],
+        nameTech: [
+          'HTML',
+          'CSS',
+          'JavaScript',
+          'React',
+          'Tailwind',
+          'Typescript',
+        ],
       },
     ],
     Backend: [
       {
-        id: 1,
-        title: 'Spring Boot/Kotlin',
-        date: 'Building elegant and scalable server side applications with Java',
-      },
-      {
         id: 2,
-        title: 'MySQL/PostgreSQL',
-        date: 'Simple relational database management solutions',
+        techStack: [java, spring, kotlin, mysql, postgre, python],
+        nameTech: [
+          'Java',
+          'Spring Boot',
+          'Kotlin',
+          'MySQL',
+          'PostgreSQL',
+          'Python',
+        ],
       },
     ],
     Embedded: [
       {
-        id: 2,
-        title: 'NASA FPrime (C++)/FreeRTOS',
-        date: 'Developing real-time On-Board computer for Cube Satellite',
+        id: 3,
+        techStack: [cpp, linux],
+        nameTech: ['C++', 'Linux'],
       },
     ],
   });
@@ -67,35 +84,18 @@ export default function Example() {
           ))}
         </Tab.List>
         <Tab.Panels className="mt-2">
-          {Object.values(categories).map((posts, idx) => (
-            <Tab.Panel
-              key={idx}
-              className={classNames(
-                'rounded-xl bg-white p-3',
-                'ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2'
-              )}
-            >
-              <ul>
-                {posts.map((post) => (
+          {Object.values(categories).map((category) => (
+            <Tab.Panel key={category[0].id}>
+              <ul className="grid grid-cols-3 gap-4 mt-4">
+                {category[0].techStack.map((tech, index) => (
                   <li
-                    key={post.id}
-                    className="relative rounded-md p-3 hover:bg-gray-100"
+                    key={tech}
+                    className="pt-4 flex flex-col justify-center items-center focus:outline-none transition duration-300 ease-in-out transform hover:scale-150"
                   >
-                    <h3 className="text-sm font-medium leading-5">
-                      {post.title}
-                    </h3>
-
-                    <ul className="mt-1 flex space-x-1 text-xs font-normal leading-4 text-gray-500">
-                      <li>{post.date}</li>
-                    </ul>
-
-                    <a
-                      href="#"
-                      className={classNames(
-                        'absolute inset-0 rounded-md',
-                        'ring-blue-400 focus:z-10 focus:outline-none focus:ring-2'
-                      )}
-                    />
+                    <img src={tech} alt="tech icon" className="h-12 w-12" />
+                    <p className="text-sm font-medium leading-5 pt-2 text-gray-700">
+                      {category[0].nameTech[index]}
+                    </p>
                   </li>
                 ))}
               </ul>

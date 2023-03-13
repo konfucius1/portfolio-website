@@ -32,9 +32,9 @@ const Hero = () => {
       <div className="flex flex-row justify-between items-center rounded-3xl my-28 sm:mt-52 bg-gradient-to-r via-[#132c9b]  to-primary-blue from-[#182768]">
         <div className="card">
           <div className="card-body">
-            <h2 className="card-title font-rubik">Did I get your attention?</h2>
+            <h2 className="card-title font-rubik">Interested?</h2>
             <p className="font-satoshi font-thin">
-              Learn more about my technical skills and background
+              Find out more about my technical skills and background
             </p>
           </div>
         </div>

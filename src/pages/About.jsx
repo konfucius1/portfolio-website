@@ -22,39 +22,40 @@ const About = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4 }}
         >
-          <div class="py-4 md:px-4 text-base">
-            <p className="pb-4">
-              My name is Thanakon and I enjoy building software that comes to
-              life! I started university in 2021 majoring in Computing Software
-              Systems and have recently self-taught Web Development in the end
-              of 2022.
+          <div class=" md:px-4 text-base">
+            <p className="py-4">
+              Greetings, my name is Thanakon and I am passionate about bringing
+              my work to fruition. I commenced my studies in 2021 with a major
+              in Computing Software Systems and subsequently developed my skills
+              in Web Development through self-learning at the end of 2022.
             </p>
 
             <p className="pb-4">
-              Currently, I am in my final year of university at the University
-              of Melbourne, a Software Engineering Intern at Suncorp Group, a
-              Project Team Lead at Melbourne Space Program. My current priority
-              is to learn, build, and gain experiences in aims to become a
-              software engineer.
+              I am currently in my final year of study at the prestigious
+              University of Melbourne, where I am also serving as a Software
+              Engineering Intern at Suncorp Group and a Project Team Lead at
+              Melbourne Space Program. My foremost objective is to continually
+              enhance my knowledge and skills through active collaboration in
+              diverse student-led projects, hackathons, and industry
+              engagements.
             </p>
-
-            <p>Below are few technologies I have been working with</p>
           </div>
 
           <div className="avatar relative flex justify-center md:justify-start z-1">
-            <div className="w-72 rounded-xl">
+            <div className="w-72  pt-4 sm:pt-0">
               <motion.img
                 src={image}
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 0.6 }}
+                className="rounded-xl"
               />
             </div>
           </div>
         </motion.div>
 
         <motion.div
-          className="flex flex-col justify-center items-center"
+          className="flex flex-col justify-center items-center pt-8 sm:pt-16"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8 }}
@@ -62,7 +63,17 @@ const About = () => {
           <h3 className="text-center md:text-left font-bold text-lg mb-4">
             Technical Skills
           </h3>
+          <div className="flex flex-col justify-center items-center pb-4">
+            <p className="">
+              Listed below are some of the recent tech stacks I have experience
+              with.
+            </p>
+          </div>
           <Tabs />
+          <p className="italic opacity-50">
+            All technology icons are from svg-repo (open-sourced)
+          </p>
+          <p className="italic opacity-50">Hint: hover over icons</p>
         </motion.div>
       </div>
 

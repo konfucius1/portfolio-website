@@ -5,7 +5,6 @@ import { motion } from 'framer-motion';
 
 import kotlin from '../assets/experience/icons8-kotlin.svg';
 import springboot from '../assets/experience/icons8-spring-boot.svg';
-
 import suncorp from '../assets/experience/suncorp-logo.svg';
 import ares from '../assets/experience/ares-logo.svg';
 import melbspace from '../assets/experience/msp-logo.svg';

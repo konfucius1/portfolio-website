@@ -19,7 +19,7 @@ const Divider = () => {
         <HeroImage
           image={ExperienceBG}
           name="Experience"
-          desc="Stay up to date with my current work!"
+          desc="Stay up to date with my current experience!"
           path="/experience"
         />
       </div>
