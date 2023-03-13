@@ -30,7 +30,6 @@ const Experience = () => {
         'Developed RESTful KTable lookup API for the Event Streaming Platform using Spring Boot and Kotlin.',
         'Utilised OkHttp for efficient HTTP requests to OpenShift V3 endpoints with exception handling and error logging.',
         'Wrote comprehensive documentation for the KTable lookup API, including design, usage, and capabilities.',
-        'Designed and implemented data pipeline using ServiceNow integrated with cloud hosted MySQL to extract DevOps Research and Assessment (DORA) metrics and transformed the data for visualisation in Grafana.',
       ],
     },
     {
@@ -45,7 +44,6 @@ const Experience = () => {
         'Leading development of the on-board computer subsystem for student research and designed imaging cube satellite.',
         'Crafting a low-level API endpoint, complete with an extensive interface and hardware requirements documentation.',
         'Integrated NASA FPrime software (C++) onto Raspberry Pi board for satellite flight applications.',
-        'Extensive research into cross-compilation of FPrime onto FreeRTOS on a STM32 processing board for CubeSat.',
       ],
     },
     {
@@ -73,9 +71,8 @@ const Experience = () => {
       end: 'Sep. 2022',
       desc: [
         "Managed club's social presence of over 1200 members and over 4000 online followers. Led a subcommittee of three teams comprised of 7 students.",
-        'Coordinated the publicity schedule for over 80 events during the year, creating over 200 graphics with Figma.',
-        "Boosted the club's main average total followings by 63%",
-        'Generated over $7,000 in revenue through successful event planning and management, selling 700+ flagship event tickets.',
+        'Designed over 200 graphics with Figma with 80 events during the year',
+        'Generated over $7,000 in revenue through event publicity',
       ],
     },
   ];

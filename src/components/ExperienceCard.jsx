@@ -21,7 +21,7 @@ const ExperienceCard = ({
         transition={{ duration: 1.2 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="w-24 h-24 sm:w-32 sm:h-32 xl:w-[200px] xl:h-[200px] rounded-full object-contain hidden sm:block"
+        className="w-24 h-24 sm:w-32 sm:h-32 xl:w-[200px] xl:h-[200px] rounded-full object-contain "
         src={image}
         alt=""
       />
