@@ -15,9 +15,15 @@ const Footer = () => {
         <p className="font-rubik font-semibold opacity-60 text-xs">
           Designed and Developed by <br />
         </p>
-        <p className="font-rubik font-semibold opacity-80">
-          --- Thanakon Kimsan --- <br />
-        </p>
+        <a
+          href="https://github.com/konfucius1/portfolio-website"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <p className="font-rubik font-semibold opacity-80">
+            --- Thanakon Kimsan --- <br />
+          </p>
+        </a>
         <p className="font-rubik opacity-70">
           Copyright © 2023 - All right reserved
         </p>
