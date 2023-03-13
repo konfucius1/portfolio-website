@@ -12,7 +12,7 @@ const ExperienceCard = ({
   desc,
 }) => {
   return (
-    <article className="font-rubik flex flex-col rounded-xl items-center flex-shrink-0 w-full sm:w-[400px] md:w-[600px] xl:w-[900px] snap-center pb-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden bg-off-white/10 ">
+    <article className="font-rubik flex flex-col rounded-xl items-center flex-shrink-0 w-full sm:w-[400px] md:w-[600px] xl:w-[900px] snap-center  hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden bg-off-white/10 px-4 pb-10 pt-10">
       <motion.img
         initial={{
           y: -100,
@@ -21,14 +21,14 @@ const ExperienceCard = ({
         transition={{ duration: 1.2 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="w-24 h-24 sm:w-32 sm:h-32 xl:w-[200px] xl:h-[200px] rounded-full object-contain"
+        className="w-24 h-24 sm:w-32 sm:h-32 xl:w-[200px] xl:h-[200px] rounded-full object-contain hidden sm:block"
         src={image}
         alt=""
       />
 
       <div className="px-2 smd:px-10">
-        <h4 className="px-2 text-base sm:text-2xl font-light">{title}</h4>
         <p className="px-2 font-semibold text-sm sm:text-2xl mt-1">{name}</p>
+        <h4 className="px-2 text-base sm:text-2xl font-light">{title}</h4>
         <div className="flex space-x-2 my-2 px-2">
           {techStack.map((tech) => (
             <img
@@ -45,11 +45,11 @@ const ExperienceCard = ({
             <li key={index}>{item}</li>
           ))}
         </ul>
-        <p className="text-sm text-off-white/40 pt-8 px-4 text-center">
-          Company logo displayed is the property of their respective owners. The
-          icons displayed are from svg-repo (open-source).
+        <p className="text-xs text-off-white/40 pt-8 px-4 text-center">
+          Logo displayed is the property of their respective owners (icons from
+          svg-repo).
         </p>
-        <p className="text-sm text-off-white/40 pt-4 px-4 text-center">
+        <p className=" text-xs text-off-white/40 px-4 text-center">
           Hint: Swipe with track pad or keyboard arrows.
         </p>
       </div>

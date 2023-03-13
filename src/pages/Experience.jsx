@@ -50,7 +50,7 @@ const Experience = () => {
     },
     {
       id: 3,
-      name: 'ARES',
+      name: 'ARES - Aerospace & Rocketry Engineering Society',
       title: 'Project Phobos Software Engineer',
       techStack: [react, typescript, python],
       image: ares,
@@ -58,21 +58,23 @@ const Experience = () => {
       end: 'Present',
       desc: [
         'Building a rocketry flight simulation software Astra providing engineers the ability to run CAD models through atmospheric simulations for high precision.',
-        'Implementing functionality to accept requests from the front-end and passing the inputs into the python simulation function, generating an image that is hosted on Firebase. ',
+        'Porting RocketPy simulation library into backend of the web application',
+
+        'Developing client side pop-up window displaying image response from the simulation server',
       ],
     },
     {
       id: 4,
-      name: 'CISSA',
+      name: 'CISSA - Computing Information System Students Association',
       title: 'Publicity Director',
       techStack: [figma],
       image: cissa,
       start: 'Sep. 2021',
       end: 'Sep. 2022',
       desc: [
-        "Oversaw the increase of CISSA's online presence and engagement with the wider community, resulting in over 1200 members and over 4000 online followers. Led a subcommittee of three teams comprised of 7 students.",
+        "Managed club's social presence of over 1200 members and over 4000 online followers. Led a subcommittee of three teams comprised of 7 students.",
         'Coordinated the publicity schedule for over 80 events during the year, creating over 200 graphics with Figma.',
-        "Boosted the club's main Facebook page, Instagram, and Discord membership by 25%, 73%, and 63% respectively.",
+        "Boosted the club's main average total followings by 63%",
         'Generated over $7,000 in revenue through successful event planning and management, selling 700+ flagship event tickets.',
       ],
     },
@@ -92,7 +94,7 @@ const Experience = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1.5 }}
-        className="h-screen flex relative overflow-hidden flex-col text-lft md:flex-row max-w-full px-2 justify-evenly mx-auto items-center mb-8"
+        className="h-screen flex relative overflow-hidden flex-col text-lft md:flex-row max-w-full px-2 justify-evenly mx-auto items-center mb-8 mt-16"
       >
         <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-off-white/80">
           {experiences.map((experience) => (

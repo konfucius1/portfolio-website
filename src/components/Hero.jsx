@@ -35,7 +35,7 @@ const Hero = () => {
 
       <MobileSocial />
       <div className="flex justify-center items-center">
-        <div className="flex flex-col sm:flex-row justify-between items-center rounded-3xl my-28 sm:mt-52 bg-gradient-to-r via-[#132c9b]  to-primary-blue from-[#182768] w-80 sm:w-full">
+        <div className="flex flex-col sm:flex-row justify-between items-center rounded-3xl my-28 sm:mt-52 bg-gradient-to-r via-[#132c9b]  to-primary-blue from-[#182768] w-80 sm:w-full ">
           <div className="card">
             <div className="card-body">
               <h2 className="card-title font-rubik">Interested?</h2>
