@@ -31,13 +31,12 @@ const About = () => {
             </p>
 
             <p className="pb-4">
-              I am currently in my final year of study at the prestigious
-              University of Melbourne, where I am also serving as a Software
-              Engineering Intern at Suncorp Group and a Project Team Lead at
-              Melbourne Space Program. My foremost objective is to continually
-              enhance my knowledge and skills through active collaboration in
-              diverse student-led projects, hackathons, and industry
-              engagements.
+              I am currently in my final year of study at the University of
+              Melbourne, where I am also serving as a Software Engineering
+              Intern at Suncorp Group and a Project Team Lead at Melbourne Space
+              Program. My foremost objective is to continually enhance my
+              knowledge and skills through active collaboration in diverse
+              student-led projects, hackathons, and industry engagements.
             </p>
           </div>
 

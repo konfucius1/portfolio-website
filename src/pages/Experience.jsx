@@ -68,7 +68,7 @@ const Experience = () => {
       techStack: [figma],
       image: cissa,
       start: 'Sep. 2021',
-      end: 'Sep. 2021',
+      end: 'Sep. 2022',
       desc: [
         "Oversaw the increase of CISSA's online presence and engagement with the wider community, resulting in over 1200 members and over 4000 online followers. Led a subcommittee of three teams comprised of 7 students.",
         'Coordinated the publicity schedule for over 80 events during the year, creating over 200 graphics with Figma.',
