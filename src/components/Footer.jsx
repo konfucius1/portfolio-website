@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/tk-logo-grey.svg';
+import logo from '../assets/tk-logo-main.svg';
 
 const Footer = () => {
   return (
@@ -16,12 +16,12 @@ const Footer = () => {
           Designed and Developed by <br />
         </p>
         <a
-          href="https://github.com/konfucius1/portfolio-website"
+          href="https://github.com/cissa-unimelb"
           target="_blank"
           rel="noopener noreferrer"
         >
           <p className="font-rubik font-semibold opacity-80">
-            --- Thanakon Kimsan --- <br />
+            --- CISSA --- <br />
           </p>
         </a>
         <p className="font-rubik opacity-70">
