@@ -45,7 +45,7 @@ const LeftBar = () => {
       >
         <motion.div className="flex-none w-24" variants={itemVariants}>
           <motion.a
-            href="https://github.com/konfucius1"
+            href="https://github.com/cissa-unimelb"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.1 }}
@@ -58,7 +58,7 @@ const LeftBar = () => {
             />
           </motion.a>
           <motion.a
-            href="https://www.linkedin.com/in/thanakon/"
+            href="https://www.linkedin.com/company/cissa-unimelb"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.1 }}
@@ -71,7 +71,7 @@ const LeftBar = () => {
             />
           </motion.a>
           <motion.a
-            href="https://www.instagram.com/thanakonkimsan/"
+            href="https://www.instagram.com/cissa_unimelb"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.1 }}
@@ -84,7 +84,7 @@ const LeftBar = () => {
             />
           </motion.a>
           <motion.a
-            href="https://www.youtube.com/channel/UCccATyxN0ssiIUZvTu3B4AA"
+            href="https://www.youtube.com/channel/UCyIZqMJHCuu6LGM8yYbyGEw"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.1 }}
@@ -97,7 +97,7 @@ const LeftBar = () => {
             />
           </motion.a>
           <motion.a
-            href="https://www.tiktok.com/@thanakon_kimsan?is_from_webapp=1&sender_device=pc"
+            href="https://www.tiktok.com/@cissaunimelb?lang=en"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.1 }}

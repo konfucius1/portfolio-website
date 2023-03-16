@@ -13,7 +13,7 @@ const RightBar = () => {
       >
         <div className="flex-none w-24">
           <p className="font-satoshi text-off-white origin-right rotate-90">
-            kimsanthanakon@gmail.com
+            executives@cissa.org
           </p>
         </div>
       </motion.div>

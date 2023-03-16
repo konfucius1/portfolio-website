@@ -49,8 +49,8 @@ const Navbar = () => {
               </Link>
             </li>
           ))}
-          <a href={resume} target="_blank" rel="noopener noreferrer">
-            <button className="font-rubik font-medium bg-gradient-to-l from-primary-blue to-[#607EFF] hover:bg-off-white font-montserrat btn text-off-white aspect-auto w-32 text-l md:ml-8 ">
+          <a href="https://cissa.org.au/careers.html" target="_blank" rel="noopener noreferrer">
+            <button className="font-rubik font-medium bg-gradient-to-l from-primary-blue to-[#2ccbd3] hover:bg-off-white font-montserrat btn text-off-white aspect-auto w-32 text-l md:ml-8 ">
               Resume
             </button>
           </a>

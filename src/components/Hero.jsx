@@ -7,31 +7,27 @@ const Hero = () => {
   return (
     <div id="centre" className="px-4 md:px-8 md:mx-8 pt-16">
       <div className="flex flex-col justify-start items-start">
-        <h2 className="font-satoshi text-lg sm:text-2xl font-medium text-[#BBC8FF]">
+        <h2 className="font-satoshi text-lg sm:text-2xl font-medium text-[#7ddbe0]">
           Hello world, my name is
         </h2>
-        <h1 className="font-rubik text-4xl sm:text-6xl md:text-8xl py-4 text-transparent bg-clip-text bg-gradient-to-br via-[#4704AF] from-primary-blue to-[#FF2C32]">
-          Thanakon Kimsan
+        <h1 className="font-rubik text-4xl sm:text-6xl md:text-8xl py-4 text-transparent bg-clip-text bg-gradient-to-br via-[#23bcdb] from-[#90FFFF] to-[#90FFFF]">
+          CISSA
         </h1>
-        <p className="font-rubik text-off-white text-2xl sm:text-4xl font-bold ">
+        <p className="font-rubik text-[#7ddbe0] text-2xl sm:text-4xl font-bold ">
           I'm a{' '}
           <TypeAnimation
             sequence={['Student', 1000, 'Designer', 1000, 'Engineer', 1000]}
             wrapper="b"
             cursor={true}
             repeat={Infinity}
-            className="text-[#BBC8FF]"
+            className="text-[#7ddbe0]"
           />
         </p>
         <p
           id="hero-paragraph"
           className="py-4 text-base sm:text-lg md:text-2xl font-thin font-satoshi text-off-white"
         >
-          Deeply passionate about leveraging technology to create software
-          products that enhance the quality of life for individuals and
-          communities. With a keen interest in software development, I am
-          currently focused on honing my skills and gaining valuable industry
-          experience to drive innovation and achieve meaningful impact.
+          Deeply passionate about joining CISSA, find out more <a href="https://www.cissa.org.au/"><u>here</u></a>
         </p>
       </div>
 

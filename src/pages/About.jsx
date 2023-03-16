@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import image from '../assets/author-image.jpeg';
+import image from '../assets/author-image.png';
 import Tabs from '../components/Tabs';
 import LeftBar from '../components/LeftBar';
 import RightBar from '../components/RightBar';
@@ -27,9 +27,9 @@ const About = () => {
           >
             <div class=" md:px-4 text-base">
               <p className="py-4 text-off-white">
-                Greetings, my name is Thanakon and I am passionate about
+                Greetings, my name is Charlie and I am passionate about
                 bringing my work to fruition. I commenced my studies in 2021
-                with a major in Computing Software Systems and subsequently
+                with a major in Software Engineering and subsequently
                 developed my skills in Web Development through self-learning at
                 the end of 2022.
               </p>
@@ -37,8 +37,8 @@ const About = () => {
               <p className="pb-4 text-off-white">
                 I am currently in my final year of study at the University of
                 Melbourne, where I am also serving as a Software Engineering
-                Intern at Suncorp Group and a Project Team Lead at Melbourne
-                Space Program. My foremost objective is to continually enhance
+                Intern at ANZ Banking Group and the Vice President at Computing and Information Systems Student Association (CISSA).
+                My foremost objective is to continually enhance
                 my knowledge and skills through active collaboration in diverse
                 student-led projects, hackathons, and industry engagements.
               </p>

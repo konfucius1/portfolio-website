@@ -8,7 +8,7 @@ import tiktok from '../assets/social-media-icons/tiktok-outline-svgrepo-com.svg'
 const MotionButton = motion.button;
 
 const handleSayHelloClick = () => {
-  window.location.href = 'mailto:kimsanthanakon@gmail.com';
+  window.location.href = 'mailto:executives@cissa.org.au';
 };
 
 const Contact = () => {
@@ -40,7 +40,7 @@ const Contact = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.6, duration: 0.8 }}
         >
-          kimsanthanakon@gmail.com
+          executives@cissa.org.au
         </motion.h3>
         <MotionButton
           className="bg-off-white hover:text-off-white font-satoshi btn text-dark aspect-auto w-48 sm:w-60 h-12 sm:h-14"
@@ -55,35 +55,35 @@ const Contact = () => {
       <div className="flex justify-center items-center pt-24">
         <div id="left" className="flex flex-row">
           <a
-            href="https://github.com/konfucius1"
+            href="https://github.com/cissa-unimelb"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img src={github} alt="GitHub" className="p-2 w-11" />
           </a>
           <a
-            href="https://www.linkedin.com/in/thanakon/"
+            href="https://www.linkedin.com/company/cissa-unimelb"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img src={linkedin} alt="LinkedIn" className="p-2 w-11" />
           </a>
           <a
-            href="https://www.instagram.com/thanakonkimsan/"
+            href="https://www.instagram.com/cissa_unimelb"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img src={instagram} alt="Instagram" className="p-2 w-11" />
           </a>
           <a
-            href="https://www.youtube.com/channel/UCccATyxN0ssiIUZvTu3B4AA"
+            href="https://www.youtube.com/channel/UCyIZqMJHCuu6LGM8yYbyGEw"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img src={youtube} alt="YouTube" className="p-2 h-11 w-11" />
           </a>
           <a
-            href="https://www.tiktok.com/@thanakon_kimsan?is_from_webapp=1&sender_device=pc"
+            href="https://www.tiktok.com/@cissaunimelb?lang=en"
             target="_blank"
             rel="noopener noreferrer"
           >
