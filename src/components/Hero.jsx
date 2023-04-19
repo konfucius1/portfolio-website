@@ -11,12 +11,12 @@ const Hero = () => {
           Hello world, my name is
         </h2>
         <h1 className="font-rubik text-4xl sm:text-6xl md:text-8xl py-4 text-transparent bg-clip-text bg-gradient-to-br via-[#23bcdb] from-[#90FFFF] to-[#90FFFF]">
-          CISSA
+          Thanakon Kimsan
         </h1>
         <p className="font-rubik text-[#7ddbe0] text-2xl sm:text-4xl font-bold ">
           I'm a{' '}
           <TypeAnimation
-            sequence={['Student', 1000, 'Designer', 1000, 'Engineer', 1000]}
+            sequence={['Dog', 1000, 'Slug', 1000, 'Snail', 1000, 'really bad volleyball player', 5000]}
             wrapper="b"
             cursor={true}
             repeat={Infinity}
