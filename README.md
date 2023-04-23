@@ -1,9 +1,7 @@
 ## Personal Portfolio
 
-#### Framework used
-
-- React
-- Tailwind CSS
+#### Website URL
+https://thanakon.com/
 
 #### Features
 
@@ -13,6 +11,6 @@
 #### Installation
 
 ```
-npm i vite
+npm install
 npm run dev
 ```
