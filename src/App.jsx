@@ -1,11 +1,12 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import About from './pages/About.jsx';
-import Experience from './pages/Experience.jsx';
-import Projects from './pages/Projects.jsx';
-import Contact from './pages/Contact.jsx';
-import Home from './pages/Home.jsx';
-import Error from './pages/Error.jsx';
-import SharedLayout from './pages/SharedLayout.jsx';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import About from './pages/About.jsx'
+import Experience from './pages/Experience.jsx'
+import Projects from './pages/Projects.jsx'
+import Contact from './pages/Contact.jsx'
+import Home from './pages/Home.jsx'
+import Error from './pages/Error.jsx'
+import SharedLayout from './pages/SharedLayout.jsx'
+import Notes from './pages/Notes.jsx'
 
 function App() {
   return (
@@ -18,12 +19,13 @@ function App() {
             <Route path="experience" element={<Experience />} />
             <Route path="projects" element={<Projects />} />
             <Route path="contact" element={<Contact />} />
+            <Route path="notes" element={<Notes />} />
             <Route path="*" element={<Error />} />
           </Route>
         </Routes>
       </BrowserRouter>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

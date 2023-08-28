@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import logo from '../assets/tk-logo-main.svg';
-import menu from '../assets/hamburger-menu-svgrepo-com.svg';
-import close from '../assets/close.svg';
-import resume from '../assets/Thanakon-Kimsan-CV.pdf';
+import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
+import logo from '../assets/tk-logo-main.svg'
+import menu from '../assets/hamburger-menu-svgrepo-com.svg'
+import close from '../assets/close.svg'
+import resume from '../assets/Thanakon-Kimsan-CV.pdf'
 
 const Navbar = () => {
   let Links = [
@@ -11,13 +11,13 @@ const Navbar = () => {
     { name: 'Experience', link: '/experience' },
     { name: 'Projects', link: '/projects' },
     { name: 'Contact', link: '/contact' },
-  ];
+  ]
 
-  let [open, setOpen] = useState(false);
+  let [open, setOpen] = useState(false)
 
   const handleLinkClick = () => {
-    setOpen(false);
-  };
+    setOpen(false)
+  }
 
   return (
     <div className="shadow-md w-full fixed top-0 left-0 z-10">
@@ -49,7 +49,11 @@ const Navbar = () => {
               </Link>
             </li>
           ))}
-          <a href={resume} target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.overleaf.com/read/sxnngcrhhpgj"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button className="font-rubik font-medium bg-gradient-to-l from-primary-blue to-[#607EFF] hover:bg-off-white font-montserrat btn text-off-white aspect-auto w-32 text-l md:ml-8 ">
               Resume
             </button>
@@ -57,7 +61,7 @@ const Navbar = () => {
         </ul>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar
